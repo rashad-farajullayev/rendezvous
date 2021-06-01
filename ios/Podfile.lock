@@ -1,0 +1,45 @@
+PODS:
+  - devicelocale (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_libphonenumber (0.0.1):
+    - Flutter
+    - PhoneNumberKit/PhoneNumberKitCore (~> 3.3)
+  - libphonenumber (0.0.1):
+    - Flutter
+    - libPhoneNumber-iOS
+  - libPhoneNumber-iOS (0.9.15)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.1)
+
+DEPENDENCIES:
+  - devicelocale (from `.symlinks/plugins/devicelocale/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_libphonenumber (from `.symlinks/plugins/flutter_libphonenumber/ios`)
+  - libphonenumber (from `.symlinks/plugins/libphonenumber/ios`)
+
+SPEC REPOS:
+  trunk:
+    - libPhoneNumber-iOS
+    - PhoneNumberKit
+
+EXTERNAL SOURCES:
+  devicelocale:
+    :path: ".symlinks/plugins/devicelocale/ios"
+  Flutter:
+    :path: Flutter
+  flutter_libphonenumber:
+    :path: ".symlinks/plugins/flutter_libphonenumber/ios"
+  libphonenumber:
+    :path: ".symlinks/plugins/libphonenumber/ios"
+
+SPEC CHECKSUMS:
+  devicelocale: feebbe5e7a30adb8c4f83185de1b50ff19b44f00
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_libphonenumber: 3221425e80517c03017ff0952472830d898172bd
+  libphonenumber: bd14d5abfc5939ab0b0767234e2d8e2593af258e
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+  PhoneNumberKit: ff153d5e299f6da566cb73c6aa71e354933b2932
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.0

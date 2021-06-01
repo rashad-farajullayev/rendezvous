@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#ffeaeaea"/>
+        </shape>
+    </item>
+
+    <!-- You can insert your own image assets here -->
+    <item android:gravity="fill" android:left="20px" android:right="20px">
+        <bitmap
+            android:gravity="center|clip_horizontal"
+            android:src="@mipmap/rendezvous_logo_light" />
+    </item>
+</layer-list>
